@@ -11,7 +11,9 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
+
 
 public class RecursionFunTest {
 
@@ -167,7 +169,7 @@ public class RecursionFunTest {
     intList.removeAll(3);
       
     assertEquals((Integer)5, intList.get(0));
-    assertEquals((Integer)2, intList.get(1));  
+    assertEquals((Integer)7, intList.get(1));  
   }
 
   @Test
